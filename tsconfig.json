@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "lib": ["es2020", "DOM"],
+    "target": "es5",
+    "rootDir": "src",
+    "outDir": "lib",
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictPropertyInitialization": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "alwaysStrict": true,
+    "preserveConstEnums": true,
+    "newLine": "lf"
+  }
+}
