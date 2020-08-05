@@ -1,10 +1,13 @@
 {
   "name": "ga-release",
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "prepublish": "tsc"
   },
   "devDependencies": {
     "typescript": "^3.9.7"
